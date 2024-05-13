@@ -11,13 +11,13 @@ body {
   background-image: url("https://th.bing.com/th/id/OIP.5WR6ncsWHlQODb-I87Hv0AHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain");
 
 text-align: center;
-
+}
 h1 {font-family:Poetsen One ;font-size: 60px; color:red}
 h2 {font-family:Montserrat ;font-size: 35px}
 
 p {font-size: 25px; margin-left: 200px; margin-right: 200px;}
 
-}
+
 
 .tenz{font-weight: bold;color:red}
 .skitz{font-weight: bold;color:red}
