@@ -103,10 +103,10 @@ p{
         justify-content: space-around;
     }
 
-    .box:hover{
+    .icon:hover{
         
         background-position: center;
-        background-image: url("https://pbs.twimg.com/media/EaiLNR-XkAEsgIm?format=jpg&name=large");
+        background-image: url("https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149735606.jpg?w=1380&t=st=1716854865~exp=1716855465~hmac=4438ee4197baa4c33254aff5a1680e05a2f22b3da9d270147ccb081476157301");
         transition-duration: 0.3s;
         p{
             color: black;
@@ -166,9 +166,9 @@ p{
         height: 9px;
     }
 
-    .box:hover{
+    .icon:hover{
         background-position: center;
-        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59bc2eb0-69b1-42c5-a929-a029c3a783fc/dgxzek5-862ab8ec-8423-4c66-a60b-3f898d448a98.jpg/v1/fit/w_828,h_466,q_70,strp/genshin_screenshot_wallpaper___39_by_seigner_dgxzek5-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAyIiwicGF0aCI6IlwvZlwvNTliYzJlYjAtNjliMS00MmM1LWE5MjktYTAyOWMzYTc4M2ZjXC9kZ3h6ZWs1LTg2MmFiOGVjLTg0MjMtNGM2Ni1hNjBiLTNmODk4ZDQ0OGE5OC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.evLyrLQqmVIH9RAK-g64z07YmSff32iEdcoE4WXA1Es");
+        background-image: url("https://www.freepik.com/free-vector/gradient-zoom-effect-background_32454982.htm#query=pokemon%20background&position=9&from_view=keyword&track=ais_user&uuid=ce94f083-fd67-425f-8888-5d9e15b072c0");
         transition-duration: 0.5s;
 
         
