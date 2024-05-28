@@ -18,7 +18,7 @@ body{
 .container{
     margin: 0px auto;
     width: 85%;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33a82ede-2e36-4028-98e4-2452a4f756d9/dcgfe3y-ce877edd-aa03-4229-95f4-508e61d338b7.png/v1/fit/w_720,h_1280,q_70,strp/competition_ball__cellphone_size__by_bhrunno_dcgfe3y-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzMzYTgyZWRlLTJlMzYtNDAyOC05OGU0LTI0NTJhNGY3NTZkOVwvZGNnZmUzeS1jZTg3N2VkZC1hYTAzLTQyMjktOTVmNC01MDhlNjFkMzM4YjcucG5nIiwid2lkdGgiOiI8PTcyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.e6jf-kHWVJ8Fae8VnY5_tAmO-UI31UBq34NfLQpE_Eo");
+    background-image: url("https://techcrunch.com/wp-content/uploads/2016/08/pokemon-influence.png?resize=1200,675");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -92,7 +92,7 @@ p{
     height: 120px;
 }
 
-@media (max-width: 1120px){
+@media (max-width: 1119px){
     
     .icon{
         flex-direction: row;
@@ -139,7 +139,7 @@ p{
     
 }
 
-@media (max-width: 670px){
+@media (max-width: 635px){
     
     .pokeball{
         display: none;
