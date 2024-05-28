@@ -92,7 +92,7 @@ p{
     height: 120px;
 }
 
-@media (max-width: 1119px){
+@media (max-width: 1174px){
     
     .icon{
         flex-direction: row;
