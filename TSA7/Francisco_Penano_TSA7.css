@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    color: orange;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+/* Logo Image Styling */
+.logo-img img {
+    height: 70px; /* Adjust this value */
+}
+
+.buttons {
+    display: flex;
+}
+
+.bt {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.bt > a {
+    text-decoration: none;
+    color: white;
+}
+
+.bt > a:hover {
+    color: orange;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-weight: 700;
+}
+
+header {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/365/244/884/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-preview.jpg'); /* Replace 'path/to/background-image.jpg' with the path to your background image */
+    background-size: cover; /* Make sure the background image covers the entire header */
+    background-position: center; /* Center the background image */
+}
+
+.content-container {
+    display: flex;
+    max-width: 1900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.left-side {
+    width: 70%;
+    margin-right: 5px; /* Adjust margin as needed */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.right-side {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.info-box {
+    background: #f4f4f4;
+    padding: 0; /* Removed padding */
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    transition: box-shadow 0.3s ease; /* Added transition for smoother effect */
+}
+
+.info-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.text-box.top-text {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.text-box.bottom-text {
+    margin-top: 10px;
+}
+
+.image-box {
+    width: 143%;
+    height: 100%;
+}
+
+.image-box img {
+    width: 50%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Make image cover the whole box */
+}
+
+
+.large-middle-box img, .big-box img, .bottom-box img {
+    width: 100%;
+    height: auto;
+}
+
+.large-middle-box, .big-box, .bottom-box {
+    background: #e4e4e4;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.small-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-box {
+    background: #d4d4d4;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0; /* Removed padding */
+    border: 1px solid #bbb;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+.character-image {
+    width: 100%;
+    height: auto; /* Keeps the aspect ratio */
+}
+
+/* Breakpoints for responsiveness */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .small-boxes {
+        flex-direction: column;
+    }
+
+    .small-box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .nav-buttons li {
+        margin: 10px 0;
+    }
+
+    .content-container {
+        padding: 0 10px;
+    }
+
+    .info-box, .large-middle-box, .big-box, .small-box, .bottom-box {
+        padding: 10px;
+    }
+}
+
+.containerbot {
+    display: flex;
+    flex-direction: column;
+}
