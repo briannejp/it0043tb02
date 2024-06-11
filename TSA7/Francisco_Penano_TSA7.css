@@ -5,14 +5,10 @@
 }
 
 
-
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-
-
 
 
 .container {
@@ -21,14 +17,10 @@ body {
 }
 
 
-
-
 nav {
     background-color: black;
     color: orange;
 }
-
-
 
 
 nav .container {
@@ -39,22 +31,14 @@ nav .container {
 }
 
 
-
-
-
-
 .logo-img img {
     height: 70px;
 }
 
 
-
-
 .buttons {
     display: flex;
 }
-
-
 
 
 .bt {
@@ -63,17 +47,13 @@ nav .container {
 }
 
 
-
-
-.bt > a {
+.bt>a {
     text-decoration: none;
     color: white;
 }
 
 
-
-
-.bt > a:hover {
+.bt>a:hover {
     color: orange;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -81,15 +61,11 @@ nav .container {
 }
 
 
-
-
 header {
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/365/244/884/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-preview.jpg'); /* Replace 'path/to/background-image.jpg' with the path to your background image */
+
     background-size: cover;
     background-position: center;
 }
-
-
 
 
 .content-container {
@@ -98,166 +74,179 @@ header {
     margin: 20px auto;
     padding: 0 20px;
     gap: 20px;
+    background-image: url(https://wallpapers.com/images/hd/naruto-symbol-spiral-47j8agm8t758a4qo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
-
 
 
 .left-side {
     width: 70%;
-    margin-right: 5px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
-
-
-
-
-
 
 
 .right-side {
-    width: 60%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
-
 
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
 
+.character-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black;
+    box-shadow: 5px 5px orange;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT39TNwJmq6GXM1jaS-pzCxEkokk2biMitENQ&s);
+    background-size: cover;
+    background-position: center;
+}
 
 
-.info-box {
-    background: #f4f4f4;
-    padding: 0;
-    border: 1px solid #ddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.character-box .title-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    border: solid black;
 }
 
 
-
-
-.info-box:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.character-box .image-box {
+    text-align: center;
+    margin: 10px 0;
 }
 
 
-
-
-.text-box.top-text {
-    margin-bottom: 10px;
-    font-weight: bold;
+.character-box .image-box img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 
-
-
-.text-box.bottom-text {
+.character-box .info-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
     margin-top: 10px;
+    border: solid black;
 }
 
 
-
-
-.image-box {
-    width: 143%;
-    height: 100%;
-}
-
-
-
-
-.image-box img {
-    width: 50%;
-    height: 300px;
-    object-fit: cover;
-}
-
-
-
-
-
-
-
-
-.large-middle-box img, .big-box img, .bottom-box img {
+.middle-large-box img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
-
-
-.large-middle-box, .big-box, .bottom-box {
-    background: #e4e4e4;
-    padding: 10px;
-    border: 1px solid #ccc;
+.big-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
-
-
 
 
 .small-boxes {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-
-
 
 
 .small-box {
-    background: #d4d4d4;
-    width: 48%;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0; /* Removed padding */
-    border: 1px solid #bbb;
-    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid black;
+    box-shadow: 5px 5px orange;
 }
 
 
-
-
-.character-image {
+.small-box .image-box img {
     width: 100%;
     height: auto;
 }
 
 
+.small-box .text-box {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+    
+}
+
+.news{
+    margin-top: 40px;
+}
+
+h1,.news{
+    color: black;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.bottom-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
 
 
+.bottom-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
+.middle-small-box {
+    width: 500px;
+}
 
-@media (max-width: 768px) {
+.middle-small-box img {
+    width: 100%;
+    height: 820px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1260px) {
     .content-container {
-        flex-direction: column;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(10, 754.72px);
     }
 
+    .right-side{
+        grid-row: 4/5;
+        grid-column: 2/2;
+    }
 
-
-
-    .left-side, .right-side {
+    .left-side,
+    .right-side {
         width: 100%;
+        
     }
-
-
 
 
     .grid-container {
@@ -265,30 +254,23 @@ header {
     }
 
 
-
-
     .small-boxes {
         flex-direction: column;
     }
 
 
-
-
     .small-box {
         width: 100%;
+        height: auto;
         margin-bottom: 10px;
     }
 }
 
 
-
-
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .navbar {
         flex-direction: column;
     }
-
-
 
 
     .nav-buttons {
@@ -298,31 +280,23 @@ header {
     }
 
 
-
-
     .nav-buttons li {
         margin: 10px 0;
     }
 
 
-
-
     .content-container {
         padding: 0 10px;
+        display: flex;
+        flex-direction: column;
     }
 
 
-
-
-    .info-box, .large-middle-box, .big-box, .small-box, .bottom-box {
+    .info-box,
+    .large-middle-box,
+    .big-box,
+    .small-box,
+    .bottom-box {
         padding: 10px;
     }
-}
-
-
-
-
-.containerbot {
-    display: flex;
-    flex-direction: column;
 }
